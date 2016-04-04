@@ -1,0 +1,175 @@
+body 
+{
+	background: url(http://i.imgur.com/AHXnGhj.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Arial";
+	font-size: 10;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+a:active {
+    text-decoration: underline;
+    color: white;
+}
+
+#main-container
+{
+    background: rgba(197,230,253,0.61);
+    width: 1032px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+#banner
+{
+	width: 1030px;
+	height: 200px;
+	background-image: url(http://i.imgur.com/DthuYcV.png);
+}
+
+#content-wide
+{
+	background: rgba(255,255,255,0.8);
+	width: 730px;
+	/*float: left;*/
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 15px;
+}
+
+#content-thin
+{
+	background: rgba(255,255,255,0.8);
+	width: 270px;
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	clear: right;
+}
+
+#content-verywide
+{
+	background: rgba(255,255,255,0.8);
+	width: 1000px;
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	clear: right;
+}
+
+div.horizontal
+{
+width:1030px;
+height:38px;
+background-color:#01508d;
+}
+div.horizontal ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+div.horizontal li
+{
+float:left;
+}
+div.horizontal a
+{
+display:table-cell;
+width:100px;
+height: 30px;
+vertical-align: middle;
+}
+div.horizontal a:link,div.horizontal a:visited
+{
+font-family: "Courier New";
+color:#FFFFFF;
+text-transform: uppercase;
+background-color:#01508d;
+text-align:center;
+padding:4px;
+text-decoration:none;
+transition: text-shadow 0.3s;
+}
+div.horizontal a:hover,div.horizontal a:active
+{
+/*background-color:#0087ef;*/
+background-color:#01508d;
+text-shadow: 
+-3px 0px 10px #FFF,
+3px 0px 10px #FFF,
+0px 0px 10px #FFF,
+-3px -3px 10px #FFF,
+3px -3px 10px #FFF,
+0px -3px 10px #FFF,
+-3px 3px 10px #FFF,
+3px 3px 10px #FFF,
+0px 3px 10px #FFF;
+transition: text-shadow 0.3s;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 10px;
+  margin: 0px;
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.menu-header {
+    margin-left: -5px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.menu-header-collapsible {
+    margin-left: -5px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+        user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
